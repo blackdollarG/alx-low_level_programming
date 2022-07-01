@@ -3,18 +3,18 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/**
- * main - this is the main function
+/*
+ *main - this is the main function
  *
- * Return: return whether the number is +/-
+ *Return: return whether the number is +/-
 */
 int main(void)
 {
 /*
- * This is for main
+ *This is for main
  *
- * Description:
- * This function does whatever
+ *Description:
+ *This function does whatever
 */
                int n;
                srand(time(0));
