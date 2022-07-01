@@ -8,15 +8,15 @@
 
 
 
-/**
+/*
  *
- * * main - this is the main function
+ * main - this is the main function
  *
- * *
  *
- * * Return: return whether the number is +/-
  *
- * */
+ * Return: return whether the number is +/-
+ *
+ */
 
 int main(void)
 
@@ -24,15 +24,14 @@ int main(void)
 
 	/*
 	 *
-	 * * This is for main
+	 * This is for main
 	 *
-	 * *
 	 *
-	 * * Description:
+	 * Description:
 	 *
-	 * * This function does whatever
+	 * This function does whatever
 	 *
-	 * */
+	 */
 
 	int n;
 
