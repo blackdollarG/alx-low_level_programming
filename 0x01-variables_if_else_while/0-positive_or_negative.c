@@ -4,17 +4,17 @@
 /* more headers goes there */
 
 /**
- *main - this is the main function
- *
- *Return: return whether the number is +/-
+*main - this is the main function
+*
+*Return: return whether the number is +/-
 */
 int main(void)
 {
 /*
- *This is for main
- *
- *Description:
- *This function does whatever
+*This is for main
+*
+*Description:
+*This function does whatever
 */
                int n;
                srand(time(0));
