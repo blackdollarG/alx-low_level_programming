@@ -3,7 +3,7 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/*
+/**
  *main - this is the main function
  *
  *Return: return whether the number is +/-
