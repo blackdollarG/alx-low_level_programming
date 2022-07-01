@@ -1,28 +1,29 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
-/* *
- * main funtion
- * return whenever the number is positive_or_negative
- * */
+/**
+ * main - this is the main function
+ *
+ * Return: return whether the number is +/-
+*/
 int main(void)
 {
-
-/* *
- * this is for main
- * description_this fuction writes a random number whenever its executed
- * */	
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	
-	 if (n<0)
-	 	printf("%i is negative\n", n);
-	 else if (n>0)
-	 	printf("%i is positive\n", n);
-	 else 
-	        printf("%i is zero\n", n);	
-	return (0);
+/*
+ * This is for main
+ *
+ * Description:
+ * This function does whatever
+*/
+               int n;
+               srand(time(0));
+               n = rand() - RAND_MAX / 2;
+               if (n < 0)
+	               printf("%i is negative\n", n);
+               else if (n > 0)
+                       printf("%i is positive\n", n);
+               else
+	               printf("%i is zero\n", n);
+               return (0);
 }
