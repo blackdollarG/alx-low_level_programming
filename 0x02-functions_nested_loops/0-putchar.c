@@ -7,14 +7,17 @@
  */
 int main(void)
 {
-	int func(_putchar)
-
-		char *i= "blackdollarG"
-	while (*i)
 	{
-		_putchar(*i);
-			i++;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	}
-		_putchar('\n');
 
-			return 0;
+	return 0;
+}
