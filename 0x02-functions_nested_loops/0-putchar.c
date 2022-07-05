@@ -7,19 +7,13 @@
  */
 int main(void)
 {
-	char _putchar('\n');
+	char dollar[9] = "_putchar";
+	int i;
 
+	for (i = 0; i < 8; i = i + 1)
 	{
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+		_putchar(dollar[i]);
 	}
-
-	return 0;
+	_putchar('\n');
+	return (0);
 }
