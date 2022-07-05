@@ -1,18 +1,19 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
  * main - entry point
- * Description: write a program that prints '_putchar' followed by a new line
- * Return: always 0
+ * Declaration: prints "_putchar" followed by a new line
+ * Return: Alwys 0 (Success)
  */
 int main(void)
 {
-	char joy[9] = "_putchar";
-	int i;
+	char abe[] = "_putchar";
 
-	for (i = 0; i < 8; i = i + 1)
+	int c;
+
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(joy[i]);
+		_putchar(abe[c]);
 	}
 	_putchar('\n');
 	return (0);
