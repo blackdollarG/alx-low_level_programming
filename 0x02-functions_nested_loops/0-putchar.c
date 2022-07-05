@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main - entry point
- * Description: write a program that prints "_putchar" followed by a new line
+ * Description: write a program that prints '_putchar' followed by a new line
  * Return: always 0
  */
 int main(void)
