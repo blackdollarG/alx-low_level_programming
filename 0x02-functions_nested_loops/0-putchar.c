@@ -7,6 +7,7 @@
  */
 int main(void)
 {
+	int _putchar('\n')
 
 	{
 	_putchar('_');
